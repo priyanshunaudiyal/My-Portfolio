@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+@layer utilities {
+  .bg-dot-pattern {
+    background-image: radial-gradient(#d3d3d3 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-repeat: repeat;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1.2s ease-out forwards;
+}
