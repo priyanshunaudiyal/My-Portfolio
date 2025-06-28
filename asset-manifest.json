@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.78d47bb1.css",
-    "main.js": "/my-portfolio/static/js/main.022e8f8d.js",
+    "main.css": "/my-portfolio/static/css/main.153bb83c.css",
+    "main.js": "/my-portfolio/static/js/main.06d7f963.js",
     "static/media/Priyanshu-Naudiyal-Resume.pdf": "/my-portfolio/static/media/Priyanshu-Naudiyal-Resume.b3bdc01ab67f69c7809d.pdf",
     "index.html": "/my-portfolio/index.html",
-    "main.78d47bb1.css.map": "/my-portfolio/static/css/main.78d47bb1.css.map",
-    "main.022e8f8d.js.map": "/my-portfolio/static/js/main.022e8f8d.js.map"
+    "main.153bb83c.css.map": "/my-portfolio/static/css/main.153bb83c.css.map",
+    "main.06d7f963.js.map": "/my-portfolio/static/js/main.06d7f963.js.map"
   },
   "entrypoints": [
-    "static/css/main.78d47bb1.css",
-    "static/js/main.022e8f8d.js"
+    "static/css/main.153bb83c.css",
+    "static/js/main.06d7f963.js"
   ]
 }
