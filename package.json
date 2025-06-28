@@ -1,7 +1,6 @@
 {
   "name": "tailwind-react-starter",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://priyanshunaudiyal.github.io/My-Portfolio",
   "dependencies": {
     "react": "^18.2.0",
