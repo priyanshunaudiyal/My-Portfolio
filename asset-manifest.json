@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/priyanshunaudiyal/My-Portfolio/static/css/main.5445cadd.css",
-    "main.js": "/priyanshunaudiyal/My-Portfolio/static/js/main.de157157.js",
-    "static/media/Priyanshu-Naudiyal-Resume.pdf": "/priyanshunaudiyal/My-Portfolio/static/media/Priyanshu-Naudiyal-Resume.b3bdc01ab67f69c7809d.pdf",
-    "index.html": "/priyanshunaudiyal/My-Portfolio/index.html",
-    "main.5445cadd.css.map": "/priyanshunaudiyal/My-Portfolio/static/css/main.5445cadd.css.map",
-    "main.de157157.js.map": "/priyanshunaudiyal/My-Portfolio/static/js/main.de157157.js.map"
+    "main.css": "/My-Portfolio/static/css/main.5445cadd.css",
+    "main.js": "/My-Portfolio/static/js/main.ccfa7c5f.js",
+    "static/media/Priyanshu-Naudiyal-Resume.pdf": "/My-Portfolio/static/media/Priyanshu-Naudiyal-Resume.b3bdc01ab67f69c7809d.pdf",
+    "index.html": "/My-Portfolio/index.html",
+    "main.5445cadd.css.map": "/My-Portfolio/static/css/main.5445cadd.css.map",
+    "main.ccfa7c5f.js.map": "/My-Portfolio/static/js/main.ccfa7c5f.js.map"
   },
   "entrypoints": [
     "static/css/main.5445cadd.css",
-    "static/js/main.de157157.js"
+    "static/js/main.ccfa7c5f.js"
   ]
 }
