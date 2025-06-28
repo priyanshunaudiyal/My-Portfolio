@@ -28,7 +28,7 @@ const Navbar = () => {
           onClick={handleScrollToTop}
         >
           <img src={`${process.env.PUBLIC_URL}/terminal.png`} alt="Logo" className="w-6 h-6" />
-          <span>Naudiyal</span>
+          <span>Priyanshu Naudiyal</span>
         </Link>
 
         {/* Hamburger Menu for small screens */}
