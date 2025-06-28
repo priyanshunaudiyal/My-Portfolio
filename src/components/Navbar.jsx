@@ -24,10 +24,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <Link
           to="/"
-          className="text-xl font-bold text-gray-800"
+          className="text-xl font-bold text-gray-800 flex items-center space-x-2"
           onClick={handleScrollToTop}
         >
-          Priyanshu Naudiyal
+          <img src={`${process.env.PUBLIC_URL}/terminal.png`} alt="Logo" className="w-6 h-6" />
+          <span>Naudiyal</span>
         </Link>
 
         {/* Hamburger Menu for small screens */}
