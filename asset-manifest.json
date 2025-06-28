@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.5445cadd.css",
-    "main.js": "/My-Portfolio/static/js/main.ccfa7c5f.js",
+    "main.js": "/My-Portfolio/static/js/main.d30732fa.js",
     "static/media/Priyanshu-Naudiyal-Resume.pdf": "/My-Portfolio/static/media/Priyanshu-Naudiyal-Resume.b3bdc01ab67f69c7809d.pdf",
     "index.html": "/My-Portfolio/index.html",
     "main.5445cadd.css.map": "/My-Portfolio/static/css/main.5445cadd.css.map",
-    "main.ccfa7c5f.js.map": "/My-Portfolio/static/js/main.ccfa7c5f.js.map"
+    "main.d30732fa.js.map": "/My-Portfolio/static/js/main.d30732fa.js.map"
   },
   "entrypoints": [
     "static/css/main.5445cadd.css",
-    "static/js/main.ccfa7c5f.js"
+    "static/js/main.d30732fa.js"
   ]
 }
