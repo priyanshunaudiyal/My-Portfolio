@@ -6,6 +6,8 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Freelance from "./pages/Freelance";
 import Experience from "./pages/Experience";
+import Resume from "./pages/Resume";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -21,7 +23,9 @@ function App() {
                 <About />
                 <Projects />
                 <Experience />
+                <Resume />
                 <Contact />
+                <Footer />
               </>
             }
           />

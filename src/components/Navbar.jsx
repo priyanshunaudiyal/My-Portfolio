@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
-import Resume from '../assets/Priyanshu-Naudiyal-Resume.pdf'
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
 
   const handleScrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -30,7 +30,7 @@ const Navbar = () => {
           Priyanshu Naudiyal
         </Link>
 
-        {/* Hamburger menu for small screens */}
+        {/* Hamburger Menu for small screens */}
         <div className="md:hidden">
           <button
             onClick={() => setMenuOpen(!menuOpen)}
@@ -49,36 +49,55 @@ const Navbar = () => {
             menuOpen ? "block" : "hidden"
           } md:flex md:items-center md:space-x-6 text-sm text-gray-600 absolute md:static top-full left-0 w-full md:w-auto bg-white md:bg-transparent px-6 md:px-0 py-4 md:py-0 shadow md:shadow-none transition-all duration-300`}
         >
-          <li>
-            <a href="#about" onClick={(e) => handleAnchorClick(e, "#about")} className="block py-2 md:py-0 hover:text-black">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="#projects" onClick={(e) => handleAnchorClick(e, "#projects")} className="block py-2 md:py-0 hover:text-black">
-              Projects
-            </a>
-          </li>
-          <li>
-            <a href="#experience" onClick={(e) => handleAnchorClick(e, "#experience")} className="block py-2 md:py-0 hover:text-black">
-              Experience
-            </a>
-          </li>
-          <li>
-            <a href="#contact" onClick={(e) => handleAnchorClick(e, "#contact")} className="block py-2 md:py-0 hover:text-black">
-              Contact
-            </a>
-          </li>
-
-          <li>
-            <a
-              href={Resume}
-              download
-              className="bg-gray-800 text-white px-4 py-1 rounded hover:bg-black transition"
-            >
-              Resume
-            </a>
-          </li>
+          {location.pathname === "/" && (
+            <>
+              <li>
+                <a
+                  href="#about"
+                  onClick={(e) => handleAnchorClick(e, "#about")}
+                  className="block py-2 md:py-0 hover:text-black"
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#projects"
+                  onClick={(e) => handleAnchorClick(e, "#projects")}
+                  className="block py-2 md:py-0 hover:text-black"
+                >
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#experience"
+                  onClick={(e) => handleAnchorClick(e, "#experience")}
+                  className="block py-2 md:py-0 hover:text-black"
+                >
+                  Experience
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#resume"
+                  onClick={(e) => handleAnchorClick(e, "#resume")}
+                  className="block py-2 md:py-0 hover:text-black"
+                >
+                  Resume
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  onClick={(e) => handleAnchorClick(e, "#contact")}
+                  className="block py-2 md:py-0 hover:text-black"
+                >
+                  Contact
+                </a>
+              </li>
+            </>
+          )}
 
           <li>
             <Link to="/freelance" onClick={() => setMenuOpen(false)}>

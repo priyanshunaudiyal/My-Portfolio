@@ -3,7 +3,7 @@ const projects = [
         title: "Portfolio Website",
         description:
           "Single-page scroll portfolio built with React and Tailwind showcasing projects and contact info.",
-        tech: ["React", "Tailwind CSS"],
+        tech: ["React", "Tailwind CSS", "HTML", "CSS"],
         link: "#",
       },
     {
@@ -20,27 +20,13 @@ const projects = [
       tech: ["Power BI", "DAX", "Data Modeling"],
       link: "https://github.com/priyanshunaudiyal/Southern-Restaurant-Dashboard",
     },
-    {
-    title: "Southern Restaurant Dashboard",
-      description:
-        "A Power BI dashboard analyzing menu item sales, location-wise performance, and 3-month rolling trends.",
-      tech: ["Power BI", "DAX", "Data Modeling"],
-      link: "https://github.com/priyanshunaudiyal/Southern-Restaurant-Dashboard",
-    },
-    {
-      title: "Portfolio Website",
-      description:
-        "Single-page scroll portfolio built with React and Tailwind showcasing projects and contact info.",
-      tech: ["React", "Tailwind CSS"],
-      link: "#",
-    },
-    {
-        title: "Portfolio Website",
-        description:
-          "Single-page scroll portfolio built with React and Tailwind showcasing projects and contact info.",
-        tech: ["React", "Tailwind CSS"],
-        link: "#",
-      },
+    // {
+    //   title: "CA Website",
+    //   description:
+    //     "",
+    //   tech: ["React", "Tailwind CSS", "HTML", "CSS"],
+    //   link: "https://github.com/priyanshunaudiyal/Southern-Restaurant-Dashboard",
+    // },
   ];
   
   const Projects = () => {

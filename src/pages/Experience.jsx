@@ -4,7 +4,7 @@ const experienceList = [
       company: "Lawise.ai",
       duration: "Nov 2024 - Present",
       description:
-        "Building responsive React interfaces and developing internal tools including the Lawise-HR mobile app.",
+        "Building responsive React interfaces and developing internal tools to streamline workflows and enhance user experience.",
     },
     {
       role: "Machine Learning Intern",

@@ -18,13 +18,6 @@ const Home = () => {
       <p className="text-gray-500 mt-4 max-w-md select-none">
         Designing engaging user experiences with React, Tailwind, and a touch of creativity. Let's build something impactful.
       </p>
-
-      <button
-        onClick={scrollToAbout}
-        className="text-sm text-gray-400 mt-10 select-none animate-fade-in hover:text-gray-600 transition-colors duration-200"
-      >
-        ↓ Scroll to explore
-      </button>
     </section>
   );
 };
