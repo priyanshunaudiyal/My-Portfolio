@@ -1,4 +1,4 @@
-# 🧑‍💻 Priyanshu Naudiyal – Developer Portfolio
+# Priyanshu Naudiyal – Developer Portfolio
 
 Welcome to my personal portfolio website! Built using **React** and **Tailwind CSS**, this site showcases my skills, projects, experience, and freelance services in a single-page, scrollable interface. It's fully responsive and deployed via **GitHub Pages**.
 
