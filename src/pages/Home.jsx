@@ -1,4 +1,11 @@
 const Home = () => {
+  const scrollToAbout = () => {
+    const aboutSection = document.getElementById("about");
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section
       id="home"
@@ -12,12 +19,12 @@ const Home = () => {
         Designing engaging user experiences with React, Tailwind, and a touch of creativity. Let's build something impactful.
       </p>
 
-      <a
-        href="#about"
+      <button
+        onClick={scrollToAbout}
         className="text-sm text-gray-400 mt-10 select-none animate-fade-in hover:text-gray-600 transition-colors duration-200"
       >
         ↓ Scroll to explore
-      </a>
+      </button>
     </section>
   );
 };
